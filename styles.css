@@ -1,0 +1,178 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin:auto;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+/********************* Title section **************************/
+
+.header{
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 3% 12% 2% 12%;
+}
+
+.carousel-heading, .pricing-heading, .contact-heading{
+  line-height: 2;
+  font-weight: 700;
+  padding-top: 1%;
+}
+
+.features-subheading, .pricing-subheading{
+  font-size: 1.4rem;
+  font-weight:500;
+}
+
+/*Sections*/
+
+.coloured-section{
+   background-color:  #FAF6E9;
+}
+
+.white-section{
+  background-color: white;
+}
+
+
+/*Navbar*/
+
+.navbar{
+  padding: 0 0 3rem;
+}
+
+.navbar-brand{
+   font-size: 2rem;
+}
+
+.nav-item{
+  font-size:1.2rem;
+  padding: 0 18px;
+}
+
+/*Title*/
+.heading{
+    font-size:2.8rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: left;
+  }
+
+  @media (max-width:1080px){
+
+  .heading{
+      text-align: center;
+      }
+    }
+
+    @media (max-width:600px){
+
+    .heading{
+        font-size:2.2rem;
+        text-align: center;
+        }
+      }
+
+.main{
+width:95%;
+}
+
+@media(max-width:1080px){
+  .main{
+    width:80%;
+  }
+}
+
+
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+@media (max-width:1080px){
+  .download-button{
+    text-align: center;
+  }
+
+}
+
+/*Features*/
+
+#features{
+  padding: 10% 15%;
+}
+
+p{
+  color:#7F7C82;
+}
+
+.icon{
+  color:#ECE8D9;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:#A97155;
+}
+
+/*Testimonials*/
+
+.testimonial-image{
+  width:15%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+.press-logo{
+    width:12%;
+    margin: 20px 20px 50px;
+  }
+
+.web-icon{
+  color:#A97155;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 2% 2%;
+}
+
+.card-header{
+  background-color: #ECE8D9;
+}
+
+/* Contact*/
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Footer */
+
+#footer{
+    padding: 5% 0;
+}
+
+.footer-icon{
+    padding: 0 1% 1% 0;
+
+}
