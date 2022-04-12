@@ -1,4 +1,3 @@
-
 body{
   font-family: 'Montserrat', sans-serif;
   margin:auto;
@@ -6,6 +5,16 @@ body{
   font-size: 1.1rem;
 }
 
+@media(max-width:1080px){
+ body{font-size: 1.4rem;
+   }
+}
+
+@media (max-width:600px){
+.heading{
+    font-size:1.6rem;
+    }
+  }
 /********************* Title section **************************/
 
 .header{
@@ -92,9 +101,12 @@ width:95%;
   margin: 5% 3% 5% 0;
 }
 
-@media (max-width:1080px){
-  .download-button{
-    text-align: center;
+#download{
+  text-align: center;
+}
+@media (min-width:1080px){
+  #download{
+text-align: left;
   }
 
 }
@@ -176,3 +188,4 @@ p{
     padding: 0 1% 1% 0;
 
 }
+
