@@ -42,6 +42,14 @@ body{
    background-color:  #FAF6E9;
 }
 
+@media (max-width:600px){
+  .coloured-section{
+     background-color:  #E6BA95;
+  }
+
+  }
+
+
 .white-section{
   background-color: white;
 }
@@ -126,6 +134,14 @@ p{
   margin-bottom: 1rem;
 }
 
+@media (max-width:600px){
+.icon{
+    color:  #E6BA95;
+  }
+
+}
+
+
 .icon:hover{
   color:#A97155;
 }
@@ -172,6 +188,14 @@ p{
   background-color: #ECE8D9;
 }
 
+@media (max-width:600px){
+  .card-header{
+    background-color: #E6BA95;
+  }
+
+}
+
+
 /* Contact*/
 
 .download-button{
@@ -188,4 +212,3 @@ p{
     padding: 0 1% 1% 0;
 
 }
-
