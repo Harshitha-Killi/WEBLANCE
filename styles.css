@@ -101,6 +101,7 @@ width:95%;
   .main{
     width:80%;
     text-align: center;
+    margin: 0 auto;
   }
 }
 
