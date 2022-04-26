@@ -6,13 +6,13 @@ body{
 }
 
 @media(max-width:1080px){
- body{font-size: 1.4rem;
+ body{font-size: 1.6rem;
    }
 }
 
 @media (max-width:600px){
 .heading{
-    font-size:1.6rem;
+    font-size:1.8rem;
     }
   }
 /********************* Title section **************************/
@@ -39,12 +39,12 @@ body{
 /*Sections*/
 
 .coloured-section{
-   background-color:  #FAF6E9;
+   background-color:  #ECE8D9;
 }
 
-@media (max-width:600px){
+@media (max-width:1080px){
   .coloured-section{
-     background-color:  #E6BA95;
+    background-color:  #E9DAC1;
   }
 
   }
@@ -100,6 +100,7 @@ width:95%;
 @media(max-width:1080px){
   .main{
     width:80%;
+    text-align: center;
   }
 }
 
@@ -134,9 +135,9 @@ p{
   margin-bottom: 1rem;
 }
 
-@media (max-width:600px){
+@media (max-width:1080px){
 .icon{
-    color:  #E6BA95;
+    color:  #E9DAC1;
   }
 
 }
@@ -188,9 +189,9 @@ p{
   background-color: #ECE8D9;
 }
 
-@media (max-width:600px){
+@media (max-width:1080px){
   .card-header{
-    background-color: #E6BA95;
+    background-color: #E9DAC1;
   }
 
 }
@@ -212,3 +213,4 @@ p{
     padding: 0 1% 1% 0;
 
 }
+
