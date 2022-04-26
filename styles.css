@@ -44,7 +44,7 @@ body{
 
 @media (max-width:1080px){
   .coloured-section{
-    background-color:  #E9DAC1;
+    background-color:  #dedacd;
   }
 
   }
@@ -137,7 +137,7 @@ p{
 
 @media (max-width:1080px){
 .icon{
-    color:  #E9DAC1;
+    color:  #dedacd;
   }
 
 }
@@ -191,7 +191,7 @@ p{
 
 @media (max-width:1080px){
   .card-header{
-    background-color: #E9DAC1;
+    background-color: #dedacd;
   }
 
 }
